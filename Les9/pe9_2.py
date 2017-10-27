@@ -8,7 +8,7 @@ def vraagOmInput():
         naam = input("Wat is je achternaam? ")
 
         if naam == '':
-            break
+            continue
 
         voorl = input("Wat zijn je voorletters? ")
 
